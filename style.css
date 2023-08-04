@@ -40,7 +40,7 @@ body {
     width: 100%;
 }
 
-/************************ Header and Navbar ************************/
+/* Header and Navbar */
 
 .logo {
     height: 45px;
@@ -55,6 +55,7 @@ body {
     padding: 20px 80px;
     background-color: #e6e6ff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    position: sticky;
 }
 
 #navbar {
@@ -80,3 +81,52 @@ body {
  {
     color: #888888;
 }
+
+/* Main Page */
+
+
+
+#poster {
+    background-image: url(Images/Poster.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#poster h4 {
+    padding-bottom: 15px;
+}
+
+#poster h1 {
+    color: #888888;
+}
+
+#poster button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #7c72d4;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+#poster button:hover {
+    background-color: #5c5fec;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+#poster button:active {
+    background-color: #7064e0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
