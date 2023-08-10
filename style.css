@@ -40,6 +40,14 @@ body {
     width: 100%;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
 /* Header and Navbar */
 
 .logo {
@@ -55,13 +63,12 @@ body {
     padding: 20px 80px;
     background-color: #e6e6ff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-    position: sticky;
 }
 
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
 }
 
 #navbar li {
@@ -83,7 +90,6 @@ body {
 }
 
 /* Main Page */
-
 
 
 #poster {
@@ -110,18 +116,18 @@ body {
     padding: 12.5px 30px;
     border: 0;
     border-radius: 100px;
-    background-color: #7c72d4;
+    background-color: #5746f0;
     color: #ffffff;
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
-  }
+}
   
 #poster button:hover {
     background-color: #5c5fec;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
-  }
+}
   
 #poster button:active {
     background-color: #7064e0;
@@ -129,4 +135,28 @@ body {
     -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
-  }
+}
+
+#features {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#services {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;    
+}
+
+#services img {  
+    width: 60%;
+    height: 200px;
+    border: 3px solid #e7e8c3;
+    border-radius: 8px;
+}
+
+#services h6 {
+    padding-left: 40px;
+    font-size: 16px; 
+}
+
