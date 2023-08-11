@@ -170,15 +170,13 @@ body {
 .product-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
-    max-width: 1000px;
     justify-content: space-evenly;
   }
 
 
 .product-card {
-    width: 300px;
-    /* border-radius: 10px; */
+    width: 275px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background-color: #ffffff;
@@ -206,6 +204,7 @@ body {
     font-size: 14px;
     color: #666666;
     margin: 5px 0;
+    height: 35;
   }
   
   .product-price {

@@ -1,27 +1,27 @@
 const products = [
     {
-      image: 'product1.jpg',
       name: 'iphone 14 pro',
       description: 'Best smartphone in the world ever',
-      price: '$1199'
+      price: '$1199',
+      photo: "./Images/iphone14pro.jpeg"
     },
     {
-      image: 'product2.jpg',
       name: 'macbook pro 16',
       description: 'Superpowered workhorse for ',
-      price: '$2299'
+      price: '$2299',
+      photo: "./Images/MacBookPro.jpeg"
     },
     {
-        image: 'product1.jpg',
         name: 'ipad m2 pro',
         description: 'Unleash your creativity with ipad',
-        price: '$1699'
+        price: '$1699',
+        photo: "./Images/ipadpro.jpeg"
       },
       {
-        image: 'product2.jpg',
-        name: 'surface laptop',
-        description: 'Stylish and ergonomic that does everything',
-        price: '$1499'
+        name: 'apple watch series 8',
+        description: 'Stylish and ergonomic ',
+        price: '$399',
+        photo: "./Images/applewatch.jpeg"
       }
      
      
@@ -35,7 +35,8 @@ const products = [
     productCard.classList.add('product-card');
 
     productCard.innerHTML = `
-      <div class="product-image" style="background-image: url('${product.image}')"></div>
+      <div class="product-image" style="background-image: url('${product.photo}')">
+      </div>
       <div class="product-details">
         <h2 class="product-title">${product.name}</h2>
         <p class="product-description">${product.description}</p>
