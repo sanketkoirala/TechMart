@@ -230,3 +230,48 @@ body {
   .product-button:hover {
     background-color: #0056b3;
   }
+
+  /* Call to action */
+
+  #cta button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5746f0;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+  #cta button:hover {
+    background-color: #5c5fec;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+  
+  #cta button:active {
+    background-color: #7064e0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 10px;
+    background-image: url(Images/cta.jpeg);
+    background-size: cover;
+    height: 60vh;
+}
+
+.ban-in {
+    color: #ffffff;
+}
+
+
