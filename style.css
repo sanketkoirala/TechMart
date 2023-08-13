@@ -11,23 +11,19 @@
 h1 {
     font-size: 50px;
     line-height: 64px;
-    color: black;
 }
 
 h2 {
     font-size: 45px;
     line-height: 54px;
-    color: black;
 }
 
 h3 {
     font-size: 40px;
-    color: black;
 }
 
 h4 {
     font-size: 20px;
-    color: black;
 }
 
 p {
@@ -276,62 +272,66 @@ body {
 
 /* Small banners and promotions */
 
-.promotions {
+.ban-container {
     display: flex;
-    justify-content: space-around;
-    padding-top: 60px;
-    text-align: center;
+    flex: nowrap;
+    justify-content: space-evenly;
+}
+.ban-container {
+    padding-top: 50px;
+}
+
+#ban-first {
+    display: flex;
     align-items: center;
-}
-
-#fir-ban {
+    flex-direction: column;
     background-image: url(Images/sm-banner2.jpeg);
-    width: 500px;
-    height: 50vh;
-    size: cover;
-    background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 40%  
 }
 
-#sec-ban {
-    background-image: url(Images/sm-banner4.jpg);
-    width: 500px;
-    height: 50vh;
-    size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ban-text   {
+#sm-ban-in {
     padding-top: 150px;
-    color: #d6d6e4;
-    text-decoration: solid;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
 }
 
-.ban-text h2  {
-    font-family: 'Anton', sans-serif;
-    font-family: 'Lora', serif;
-    color: #f51919;
-    font-size: 30;
-    text-shadow: 2px 2px 5px black;
+#text-in-fir {
+    font-size: 40px;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: bold; 
 }
 
-.ban-text h4  {
-    font-family: 'Anton', sans-serif;
-    font-family: 'Lora', serif;
-    color: #f51919;
-    text-shadow: 2px 2px 5px black;
+#text-in-sec {
+    font-size: 60px;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: bold; 
 }
 
-.ban-text span  {
-    color: #f5f519;
-    text-shadow: 2px 2px 5px black;
+#ban-second {
+    background-image: url(Images/hey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+#text-in-thr {
+    font-size: 60px;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: bold; 
+    color: #ffffff;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+    padding-top: 160px;
+}
 
-.banner-box button {
+.ban-btn {
     padding: 12.5px 30px;
     border: 0;
     border-radius: 100px;
@@ -342,30 +342,16 @@ body {
     -webkit-transition: all 0.5s;
 }
   
-.banner-box button:hover {
+.ban-btn:hover {
     background-color: #5c5fec;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
   
-.banner-box button:active {
+.ban-btn:active {
     background-color: #7064e0;
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
