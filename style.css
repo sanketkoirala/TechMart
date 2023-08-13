@@ -171,7 +171,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-  }
+}
 
 
 .product-card {
@@ -273,5 +273,99 @@ body {
 .ban-in {
     color: #ffffff;
 }
+
+/* Small banners and promotions */
+
+.promotions {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+#fir-ban {
+    background-image: url(Images/sm-banner2.jpeg);
+    width: 500px;
+    height: 50vh;
+    size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sec-ban {
+    background-image: url(Images/sm-banner4.jpg);
+    width: 500px;
+    height: 50vh;
+    size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ban-text   {
+    padding-top: 150px;
+    color: #d6d6e4;
+    text-decoration: solid;
+}
+
+.ban-text h2  {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lora', serif;
+    color: #f51919;
+    font-size: 30;
+    text-shadow: 2px 2px 5px black;
+}
+
+.ban-text h4  {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lora', serif;
+    color: #f51919;
+    text-shadow: 2px 2px 5px black;
+}
+
+.ban-text span  {
+    color: #f5f519;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.banner-box button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5746f0;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+  
+.banner-box button:hover {
+    background-color: #5c5fec;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+  
+.banner-box button:active {
+    background-color: #7064e0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
