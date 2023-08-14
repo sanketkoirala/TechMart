@@ -278,7 +278,7 @@ body {
     justify-content: space-evenly;
 }
 .ban-container {
-    padding-top: 50px;
+    padding-top: 50px; 
 }
 
 #ban-first {
@@ -287,7 +287,7 @@ body {
     flex-direction: column;
     background-image: url(Images/sm-banner2.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; 
     height: 50vh;
     width: 40%  
 }
@@ -359,12 +359,11 @@ body {
 /* Three image banners */
 
 .img-container {
-    padding-left: 93px;
-    padding-right: 93px;
+    padding: 50px 96px;
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
-    padding-top: 50px;
+    
 }
 
 .img-container img {
@@ -372,3 +371,61 @@ body {
     width: 20%;
     height: auto;
 }
+
+/* Newsletter */
+
+#newsletter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e6e6ff;
+}
+
+.newsletter-container {
+    padding-top: 20px;
+}
+
+#newsletter p {
+    color: black;
+}
+
+#newsletter p span {
+    color: rgb(255, 128, 0);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 0px
+  }
+  
+.input {
+    min-height: 50px;
+    width: 80%;
+    padding: 0 1rem;
+    color: #000000;
+    font-size: 15px;
+    border: 1px solid #5746f0;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+  
+.button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5746f0;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color .3s ease-in-out;
+}
+  
+.button--submit:hover {
+    background-color: #5e5dcd;
+}
+  
+  
+  
+
