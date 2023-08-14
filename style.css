@@ -355,3 +355,20 @@ body {
     box-shadow: none;
     transform: scale(0.98);
 }
+
+/* Three image banners */
+
+.img-container {
+    padding-left: 93px;
+    padding-right: 93px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.img-container img {
+    flex:content;
+    width: 20%;
+    height: auto;
+}
