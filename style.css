@@ -425,7 +425,60 @@ body {
 .button--submit:hover {
     background-color: #5e5dcd;
 }
+
+/* Footer */
+
+.fa-brands fa-facebook-f {
+    color: #000000;
+}
+
+.fa-brands fa-twitter {
+    color: #000000;
+}
+
+.fa-brands fa-instagram{
+    color: #000000;
+}
+
+.fa-brands fa-youtube {
+    color: #000000;
+}
+
+.footer-col {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer-ver-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50px;
+}
+
+.foot-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-ver-col a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-ver-col a:hover {
+    text-decoration: underline;
+}
+
   
+
+
   
   
 
