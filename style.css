@@ -482,3 +482,14 @@ body {
   
   
 
+
+
+
+
+
+#products-grid-shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px 15px;
+    gap: 25px;
+}
