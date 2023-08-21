@@ -1,36 +1,10 @@
-const products = [
-    {
-      name: 'iphone 14 pro',
-      description: 'Best smartphone in the world ever',
-      price: '$1199',
-      photo: "./Images/iphone14pro.jpeg"
-    },
-    {
-      name: 'macbook pro 16',
-      description: 'Superpowered workhorse for ',
-      price: '$2299',
-      photo: "./Images/MacBookPro.jpeg"
-    },
-    {
-        name: 'ipad m2 pro',
-        description: 'Unleash your creativity with ipad',
-        price: '$1699',
-        photo: "./Images/ipadpro.jpeg"
-      },
-      {
-        name: 'apple watch series 8',
-        description: 'Stylish and ergonomic ',
-        price: '$399',
-        photo: "./Images/applewatch.jpeg"
-      }
-     
-     
-    
-  ];
 
   const productContainer = document.querySelector('.product-container');
 
-  products.forEach(product => {
+  fetch('featured_products_obj.json')
+  .then(response => response.json())
+  .then(products=> {
+    products.forEach(product => {
     const productCard = document.createElement('div');
     productCard.classList.add('product-card');
 
@@ -47,3 +21,7 @@ const products = [
 
     productContainer.appendChild(productCard);
   });
+})
+.catch(error => {
+  console.error('Error loading products:', error);
+});
