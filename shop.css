@@ -1,0 +1,30 @@
+
+
+#products-grid-shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px 15px;
+    gap: 25px;
+}
+
+#shop-ban {
+    background-image: url(Images/TechmartShop.jpg);
+    background-size: cover;  
+    background-position: center;
+    height: 35vh;
+}
+
+#shop-ban{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#shop-ban h2 {
+    color: rgb(255, 140, 0);
+}
+
+#shop-ban h4 {
+    color: rgb(255, 255, 255);
+}
+
+
