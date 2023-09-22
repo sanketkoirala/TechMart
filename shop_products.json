@@ -1,0 +1,230 @@
+[
+  {
+    "name": "iphone 14 pro",
+    "description": "Best smartphone in the world ever",
+    "price": "1199",
+    "photo": "./Images/iphone14pro.jpeg"
+  },
+  {
+    "name": "macbook pro 16",
+    "description": "Superpowered workhorse for professionals ",
+    "price": "2299",
+    "photo": "./Images/MacBookPro.jpeg"
+  },
+  {
+    "name": "ipad m2 pro",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/ipadpro.jpeg"
+  },
+  {
+    "name": "apple watch series 8",
+    "description": "Stylish and ergonomic",
+    "price": "399",
+    "photo": "./Images/applewatch.jpeg"
+  },
+  {
+    "name": "Chromebook",
+    "description": "Best smartphone in the world eve",
+    "price": "299",
+    "photo": "./Images/chromebook.jpg"
+  },
+  {
+    "name": "Airpods max",
+    "description": "Superpowered workhorse for ",
+    "price": "499",
+    "photo": "./Images/airpodsmax.jpeg"
+  },
+  {
+    "name": "iMac",
+    "description": "Unleash your creativity with ipad",
+    "price": "1899",
+    "photo": "./Images/imac.jpeg"
+  },
+  {
+    "name": "Apple Pro Display XDR",
+    "description": "Stylish and ergonomic ",
+    "price": "1899",
+    "photo": "./Images/prodisplayxdr.jpeg"
+  },
+  {
+    "name": "Apple Studio",
+    "description": "Best smartphone in the world eve",
+    "price": "3499",
+    "photo": "./Images/applestudio.jpg"
+  },
+  {
+    "name": "Canon EOS r6",
+    "description": "Superpowered workhorse for ",
+    "price": "2299",
+    "photo": "./Images/eosr6.png"
+  },
+  {
+    "name": "Canon EOS r5",
+    "description": "Unleash your creativity with ipad",
+    "price": "3499",
+    "photo": "./Images/eosr5.jpg"
+  },
+  {
+    "name": "Sony a7iv",
+    "description": "Stylish and ergonomic ",
+    "price": "2899",
+    "photo": "./Images/sony.jpg"
+  },
+  {
+    "name": "DJI FPV Drone",
+    "description": "Best smartphone in the world eve",
+    "price": "2299",
+    "photo": "./Images/fpvdrone.png"
+  },
+  {
+    "name": "Sony PS5",
+    "description": "Superpowered workhorse for ",
+    "price": "699",
+    "photo": "./Images/ps5.jpg"
+  },
+  {
+    "name": "Samsung Galaxy s22 ultra",
+    "description": "Unleash your creativity with ipad",
+    "price": "1399",
+    "photo": "./Images/s22ultra.jpg"
+  },
+  {
+    "name": "Samsung SmartWatch",
+    "description": "Stylish and ergonomic ",
+    "price": "389",
+    "photo": "./Images/swatch.jpg"
+  },
+  {
+    "name": "Samsung Fold Phone",
+    "description": "Best smartphone in the world eve",
+    "price": "2249",
+    "photo": "./Images/samsungfold.jpg"
+  },
+  {
+    "name": "Samsung Flip",
+    "description": "Superpowered workhorse for ",
+    "price": "1869",
+    "photo": "./Images/samsungflip.jpg"
+  },
+  {
+    "name": "Samsung Laptop",
+    "description": "Unleash your creativity with ipad",
+    "price": "1199",
+    "photo": "./Images/samsunglaptop.jpg"
+  },
+  {
+    "name": "Samsung Galaxy tab s8",
+    "description": "Stylish and ergonomic ",
+    "price": "899",
+    "photo": "./Images/samsungtabs8.jpg"
+  },
+  {
+    "name": "iphone 14 pro max",
+    "description": "Best smartphone in the world ever",
+    "price": "1399",
+    "photo": "./Images/iphone14pro.jpeg"
+  },
+  {
+    "name": "Microsoft Surface",
+    "description": "Superpowered workhorse for ",
+    "price": "2299",
+    "photo": "./Images/surface.jpg"
+  },
+  {
+    "name": "Microsoft Surface Book",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/mslaptop.jpg"
+  },
+  {
+    "name": "Amazon Kindle",
+    "description": "Stylish and ergonomic ",
+    "price": "399",
+    "photo": "./Images/kindle.jpg"
+  },
+  {
+    "name": "Printer",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/printer.jpg"
+  },
+  {
+    "name": "Scanner",
+    "description": "Stylish and ergonomic ",
+    "price": "399",
+    "photo": "./Images/scanner.jpg"
+  },
+  {
+    "name": "Paper Shredder",
+    "description": "Best smartphone in the world eve",
+    "price": "1199",
+    "photo": "./Images/shredder.jpeg"
+  },
+  {
+    "name": "Canon rf 28-70mm f2",
+    "description": "Superpowered workhorse for ",
+    "price": "2299",
+    "photo": "./Images/rf2870mm.jpg"
+  },
+  {
+    "name": "Xbox",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/xbox.png"
+  },
+  {
+    "name": "Google Pixel Phone",
+    "description": "Stylish and ergonomic ",
+    "price": "399",
+    "photo": "./Images/googlepixel.jpg"
+  },
+  {
+    "name": "Microsoft Surface Laptop",
+    "description": "Best smartphone in the world eve",
+    "price": "1199",
+    "photo": "./Images/surfacelaptop.jpg"
+  },
+  {
+    "name": "Samsung UHD TV",
+    "description": "Superpowered workhorse for ",
+    "price": "2299",
+    "photo": "./Images/tv.jpg"
+  },
+  {
+    "name": "Samsung 4K Monitor",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/monitor.jpg"
+  },
+  {
+    "name": "DJI Wireless Mic",
+    "description": "Stylish and ergonomic ",
+    "price": "399",
+    "photo": "./Images/wirelessmic.jpg"
+  },
+  {
+    "name": "Canon EOS r5c",
+    "description": "Best smartphone in the world eve",
+    "price": "1199",
+    "photo": "./Images/r5c.jpg"
+  },
+  {
+    "name": "Dell Server",
+    "description": "Superpowered workhorse for ",
+    "price": "2299",
+    "photo": "./Images/server.jpeg"
+  },
+  {
+    "name": "Macbook Air",
+    "description": "Unleash your creativity with ipad",
+    "price": "1699",
+    "photo": "./Images/macair.jpeg"
+  },
+  {
+    "name": "Macbook air 15",
+    "description": "Stylish and ergonomic ",
+    "price": "399",
+    "photo": "./Images/macair15.jpeg"
+  }
+]
